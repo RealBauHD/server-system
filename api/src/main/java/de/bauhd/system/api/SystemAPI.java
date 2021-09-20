@@ -1,6 +1,6 @@
 package de.bauhd.system.api;
 
-import de.bauhd.system.api.money.MoneyAPI;
+import de.bauhd.system.api.money.MoneyHandler;
 import de.bauhd.system.api.user.UserHandler;
 
 public abstract class SystemAPI {
@@ -16,9 +16,9 @@ public abstract class SystemAPI {
     }
 
     /**
-     * @return the instance of the money api
+     * @return the instance of the money handler
      */
-    public abstract MoneyAPI getMoneyAPI();
+    public abstract MoneyHandler getMoneyHandler();
 
     /**
      * @return the instance of the user handler

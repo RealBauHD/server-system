@@ -5,7 +5,7 @@ import org.jetbrains.annotations.NotNull;
 
 import java.util.UUID;
 
-public interface MoneyAPI {
+public interface MoneyHandler {
 
     /**
      * @param uuid the uuid to get the money
