@@ -1,0 +1,8 @@
+name: Server-System
+author: BauHD
+version: 3.0.0
+main: de.bauhd.system.ServerSystem
+description: This plugin is a spigot server system with many functions
+website: https://www.spigotmc.org/resources/62492
+softdepend: [PlaceholderAPI]
+api-version: 1.13
