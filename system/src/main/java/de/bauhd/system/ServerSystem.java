@@ -35,7 +35,7 @@ public class ServerSystem extends JavaPlugin {
     public void loadConfig() {
         if (!this.getDataFolder().exists()) this.getDataFolder().mkdir();
 
-        final File file = new File(getDataFolder(), "config.yml");
+        final File file = new File(this.getDataFolder(), "config.yml");
 
         if (!file.exists()) {
             try (final InputStream inputStream = this.getResource("config.yml")) {
