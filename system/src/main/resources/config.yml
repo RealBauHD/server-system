@@ -1,0 +1,16 @@
+# Server-System by BauHD
+
+Prefix: "&8[&eSystem&8] "
+
+# Possible types are en_EN, de_DE
+Locale: en_EN
+
+# Possible database types are MYSQL
+Database:
+  Enabled: false
+  Type: MYSQL
+  Host: 127.0.0.1
+  Port: 3306
+  User: User
+  Database: Database
+  Password: Password

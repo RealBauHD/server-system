@@ -14,10 +14,10 @@ public interface MoneyHandler {
     int getMoney(final @NotNull UUID uuid);
 
     /**
-     * @param iUser the user to get the money
+     * @param user the user to get the money
      * @return the money
      */
-    int getMoney(final @NotNull User iUser);
+    int getMoney(final @NotNull User user);
 
     /**
      * @param uuid the uuid to set the money
@@ -26,10 +26,10 @@ public interface MoneyHandler {
     void setMoney(final @NotNull UUID uuid, final int money);
 
     /**
-     * @param iUser the user to set the money
+     * @param user the user to set the money
      * @param money the money to set
      */
-    void setMoney(final @NotNull User iUser, final int money);
+    void setMoney(final @NotNull User user, final int money);
 
     /**
      * @param uuid the uuid to add the money
@@ -38,10 +38,10 @@ public interface MoneyHandler {
     void addMoney(final @NotNull UUID uuid, final int money);
 
     /**
-     * @param iUser the user to add the money
+     * @param user the user to add the money
      * @param money the money to set
      */
-    void addMoney(final @NotNull User iUser, final int money);
+    void addMoney(final @NotNull User user, final int money);
 
     /**
      * @param uuid the uuid to add the money
@@ -50,9 +50,9 @@ public interface MoneyHandler {
     void removeMoney(final @NotNull UUID uuid, final int money);
 
     /**
-     * @param iUser the user to remove the money
+     * @param user the user to remove the money
      * @param money the money to set
      */
-    void removeMoney(final @NotNull User iUser, final int money);
+    void removeMoney(final @NotNull User user, final int money);
 
 }

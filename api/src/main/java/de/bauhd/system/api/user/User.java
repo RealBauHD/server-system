@@ -8,7 +8,7 @@ import java.util.UUID;
 public interface User {
 
     /**
-     * @return the uniequeId of the user
+     * @return the unique id of the user
      */
     @NotNull UUID getUniqueId();
 
