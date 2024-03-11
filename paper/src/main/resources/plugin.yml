@@ -1,0 +1,4 @@
+name: "Server-System"
+version: "3.0.0"
+main: dev.bauhd.system.paper.PaperPlugin
+website: https://github.com/RealBauHD/Server-System

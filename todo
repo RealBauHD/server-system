@@ -1,0 +1,25 @@
+- minimessage support <3
+- vault
+- placeholder api
+- hocon
+- "custom commands"
+- prefix suffix system
+- money system
+
+commands:
+- system
+- heal
+- fly
+- feed
+- gamemode
+- tphere
+- broadcast
+- day
+- night
+- warps
+- msg
+- skull
+- enderchest
+- craft
+- workbench
+...

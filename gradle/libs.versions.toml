@@ -1,0 +1,7 @@
+[plugins]
+
+
+[libraries]
+paper = "com.destroystokyo.paper:paper-api:1.15.2-R0.1-SNAPSHOT"
+spigot = "org.spigotmc:spigot-api:1.12.2-R0.1-SNAPSHOT"
+configurate = "org.spongepowered:configurate-hocon:4.1.2"
