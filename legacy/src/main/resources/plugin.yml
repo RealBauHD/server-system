@@ -1,4 +1,5 @@
 name: "Server-System"
 version: "3.0.0"
-main: dev.bauhd.system.paper.SystemPlugin
+main: dev.bauhd.system.legacy.LegacyPlugin
 website: https://github.com/RealBauHD/Server-System
+api-version: 1.13

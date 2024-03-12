@@ -3,7 +3,7 @@ plugins {
 }
 
 dependencies {
-    implementation(libs.spigot)
+    compileOnly(libs.spigot)
 }
 
 tasks.test {
