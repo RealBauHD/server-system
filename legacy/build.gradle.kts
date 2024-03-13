@@ -12,7 +12,7 @@ dependencies {
 }
 
 tasks.shadowJar {
-    relocate("net.kyori.adventure", "dev.bauhd.relocation.adventure")
+    relocate("net.kyori", "dev.bauhd.relocation.kyori")
 }
 
 tasks.test {

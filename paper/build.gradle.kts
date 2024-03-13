@@ -5,7 +5,7 @@ plugins {
 
 dependencies {
     compileOnly(libs.paper)
-    compileOnly(libs.minimessage)
+    compileOnly(libs.minimessage) // since 1.18 in paper
 
     implementation(project(":common"))
 }

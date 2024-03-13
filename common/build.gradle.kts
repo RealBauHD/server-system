@@ -4,6 +4,7 @@ plugins {
 
 dependencies {
     compileOnly(libs.spigot)
+    implementation(libs.configurate)
 }
 
 tasks.test {

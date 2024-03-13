@@ -1,11 +1,8 @@
 package dev.bauhd.system.common;
 
-import java.util.logging.Logger;
 import org.bukkit.command.CommandMap;
 
-public interface Plugin {
+public interface Plugin extends org.bukkit.plugin.Plugin {
 
   CommandMap commandMap();
-
-  Logger logger();
 }
